@@ -69,7 +69,6 @@ p {
 
 .buttons {
   display: block;
-  border: none;
   min-width: 169px;
   height: 56px;
   margin-left: 0;
@@ -83,8 +82,7 @@ p {
   color: var(--primary-brand);
   cursor: pointer;
   padding: 12px 24px;
-  border: 1px solid var(--accent);
-  border-radius: 4px;
+  border: none;
 }
 .buttons:active,
 .buttons:hover {
@@ -140,8 +138,9 @@ p {
   display: flex;
 }
 
-.nav-li:not(:last-of-type) {
-  margin-right: 40px;
+.nav-li {
+  padding: 24px 0;
+  gap: 40px;
 }
 .nav-a {
   font-weight: 500;
