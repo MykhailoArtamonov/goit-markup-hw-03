@@ -69,6 +69,7 @@ p {
 
 .buttons {
   display: block;
+  border: none;
   min-width: 169px;
   height: 56px;
   margin-left: 0;
@@ -81,7 +82,7 @@ p {
   letter-spacing: 0.04em;
   color: var(--primary-brand);
   cursor: pointer;
-  padding: 16px 32px;
+  padding: 12px 24px;
   border: 1px solid var(--accent);
   border-radius: 4px;
 }
@@ -169,25 +170,20 @@ p {
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: left;
+  color: var(--secondary-text);
 }
-.footer-box-one {
-  display: inline-block;
-  width: 264px;
-  margin-right: 120px;
-}
+
 .logo-bottom {
   color: var(--light);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-p {
   margin-top: 17.5px;
   color: var(--light);
+  margin-bottom: 16px;
 }
-.footer-box-two {
-  display: inline-block;
-  width: 208px;
-  vertical-align: top;
-  color: var(--secondary-text);
-}
+
 .footer-social-items {
   margin-top: 16px;
   display: flex;
@@ -235,7 +231,7 @@ p {
   line-height: 1.07;
   color: var(--secondary-text);
   margin: 0 auto 48px;
-  width: 496px;
+  max-width: 496px;
 }
 
 .order-button {
@@ -255,8 +251,14 @@ p {
   max-width: 496px;
 }
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }
 
 .features-section ul {
@@ -334,7 +336,7 @@ p {
   margin-right: 24px;
 }
 .team-li-box {
-  padding: 16px 32px;
+  padding: 32px 16px;
 }
 .team-li-box h3 {
   margin-bottom: 8px;
