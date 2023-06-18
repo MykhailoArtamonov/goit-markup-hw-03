@@ -143,9 +143,6 @@ p {
   display: flex;
   gap: 40px;
 }
-
-.nav-li {
-}
 .nav-a {
   font-weight: 500;
   color: var(--dark);
