@@ -83,6 +83,7 @@ p {
   cursor: pointer;
   padding: 12px 24px;
   border: none;
+  border-radius: 4px;
 }
 .buttons:active,
 .buttons:hover {
@@ -113,13 +114,13 @@ p {
 .logo-web {
   color: var(--primary-brand);
 }
-
+.ul-menu {
+  display: flex;
+  gap: 40;
+}
 .header-section {
   border-bottom: 1px solid var(--accent);
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
-
 .header-section > div {
   display: flex;
   justify-content: space-between;
@@ -140,7 +141,6 @@ p {
 
 .nav-li {
   padding: 24px 0;
-  gap: 40px;
 }
 .nav-a {
   font-weight: 500;
