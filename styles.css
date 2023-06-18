@@ -120,6 +120,7 @@ p {
 .logo-web {
   color: var(--primary-brand);
 }
+
 .header-section {
   border-bottom: 1px solid var(--accent);
 }
@@ -127,6 +128,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  padding: 24px 0;
 }
 .header-section .logo {
   margin-right: 76px;
@@ -143,7 +145,6 @@ p {
 }
 
 .nav-li {
-  padding: 24px 0;
 }
 .nav-a {
   font-weight: 500;
