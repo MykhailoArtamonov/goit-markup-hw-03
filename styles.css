@@ -85,18 +85,24 @@ p {
   border: none;
   border-radius: 4px;
 }
+
+.filter-buttons {
+  border: 1px solid var(--accent);
+}
 .buttons:active,
 .buttons:hover {
   background-color: var(--primary-brand);
   color: var(--secondary-text);
   box-shadow: 0px 1px 6px var(--shadow-one), 0px 1px 1px var(--shadow-two),
     0px 2px 1px var(--shadow-one);
+  border: 1px solid transparent;
 }
 
 .buttons:focus {
   background-color: var(--active-buttons);
   color: var(--secondary-text);
   box-shadow: 0px 4px 4px var(--shadow-three);
+  border: 1px solid transparent;
 }
 
 /*   HEADER   */
@@ -439,13 +445,11 @@ p {
   margin-bottom: 0;
 }
 .filter-list-box {
-  padding-top: 32px;
-  padding-left: 16px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
   border-left: 1px solid var(--accent);
   border-bottom: 1px solid var(--accent);
   border-right: 1px solid var(--accent);
 }
-.filter-list-box h3 {
+.filter-h {
   margin-bottom: 8px;
 }
