@@ -128,7 +128,6 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 24px 0;
 }
 .header-section .logo {
   margin-right: 76px;
@@ -146,6 +145,7 @@ p {
 .nav-a {
   font-weight: 500;
   color: var(--dark);
+  padding: 24px 0;
 }
 .nav-a:hover,
 :focus {
@@ -161,6 +161,7 @@ p {
 .address-a {
   font-style: normal;
   color: var(--primary-text);
+  padding: 24px 0;
 }
 
 /*   FOOTER   */
